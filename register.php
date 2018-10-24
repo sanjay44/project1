@@ -38,6 +38,19 @@ require('header.php');
             <div class="modal-body">
               <ol>
                 <li>You must have the Voter ID number in order to cast vote.</li>
+                <li>All  citizens  of  India  who  are above 18 years are eligible for Registration</li>
+
+                 <li>As  an  elector  you  should  immedi
+                      ately  check  whether  your  name  has  
+                        been included in the electoral roll of th
+                                            e constituency where 
+                                                    you reside or not. </li>
+                    <li> After successful registration your password will be sent to your e-mail . </li>
+                
+                <li>You  should  note  that  you  can  be  
+                                 registered  only  at  one  place.  
+                                   Registration in more than one place is an offence. </li>
+                <li> 	You may now log in with your password. </li>
               </ol>
             </div>
           <div class="modal-footer">
