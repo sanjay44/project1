@@ -24,17 +24,17 @@
       <hr>
       <div class="form-group">
         <label for="voterID">Voter ID</label>
-        <input type="text" id="voterID" name="voterID" placeholder="Enter Voter ID" class="form-control form-control-sm">
+        <input type="text" id="voterID" name="voterID" placeholder="Enter Voter ID" class="form-control">
       </div>
       <div class="form-group">
         <label for="email">Email ID</label>
-        <input type="text" id="email" name="email" placeholder="Enter Email ID" class="form-control form-control-sm">
+        <input type="text" id="email" name="email" placeholder="Enter Email ID" class="form-control">
       </div>
       <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter Password" class="form-control form-control-sm">
+        <input type="password" id="password" name="password" placeholder="Enter Password" class="form-control">
       </div><br>
-      <button type="submit" class="btn btn-success btn-block btn-sm" name="login">Login</button>
+      <button type="submit" class="btn btn-success btn-block" name="login">Login</button>
     </form>
   </section>
 

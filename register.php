@@ -50,31 +50,31 @@ require('header.php');
       <div class="form-group row">
         <label for="voterID" class="col-sm-2 col-form-label">Voter ID</label>
         <div class="col-sm-10">
-          <input type="text" id="voterID" name="voterID" placeholder="Enter Voter ID" class="form-control form-control-sm">
+          <input type="text" id="voterID" name="voterID" placeholder="Enter Voter ID" class="form-control ">
         </div>
       </div>
       <div class="form-group row">
         <label for="voterName" class="col-sm-2 col-form-label">Name</label>
         <div class="col-sm-10">
-          <input type="text" id="voterName" name="voterName" placeholder="Enter Name" class="form-control form-control-sm">
+          <input type="text" id="voterName" name="voterName" placeholder="Enter Name" class="form-control">
         </div>
       </div>
       <div class="form-group row">
         <label for="voterDOB" class="col-sm-2 col-form-label">Date of Birth</label>
         <div class="col-sm-10">
-          <input type="date" id="voterDOB" name="voterDOB" placeholder="Enter DOB" class="form-control form-control-sm">
+          <input type="date" id="voterDOB" name="voterDOB" placeholder="Enter DOB" class="form-control">
         </div>
       </div>
       <div class="form-group row">
         <label for="email" class="col-sm-2 col-form-label">Email ID</label>
         <div class="col-sm-10">
-          <input type="text" id="email" name="email" placeholder="Enter Email ID" class="form-control form-control-sm">
+          <input type="text" id="email" name="email" placeholder="Enter Email ID" class="form-control">
         </div>
       </div>
       <div class="form-group row">
         <label for="voterPhone" class="col-sm-2 col-form-label">Phone Number</label>
         <div class="col-sm-10">
-          <input type="text" id="voterPhone" name="voterPhone" placeholder="Enter Phone Number" class="form-control form-control-sm">
+          <input type="text" id="voterPhone" name="voterPhone" placeholder="Enter Phone Number" class="form-control">
         </div>
       </div>
       <div class="form-group row">
@@ -87,13 +87,13 @@ require('header.php');
       <div class="form-group row">
         <label for="voterCity" class="col-sm-2 col-form-label">City</label>
         <div class="col-sm-10">
-          <input type="text" id="voterCity" name="voterCity" placeholder="Enter City" class="form-control form-control-sm">
+          <input type="text" id="voterCity" name="voterCity" placeholder="Enter City" class="form-control">
         </div>
       </div>
       <div class="form-group row">
         <label for="voterAddress" class="col-sm-2 col-form-label">Address</label>
         <div class="col-sm-10">
-          <textarea id="voterAddress" name="voterAddress" placeholder="Enter Address" class="form-control form-control-sm" cols="30" rows="6"></textarea>
+          <textarea id="voterAddress" name="voterAddress" placeholder="Enter Address" class="form-control" cols="30" rows="6"></textarea>
         </div>
       </div>
       <br>

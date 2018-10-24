@@ -1,11 +1,12 @@
 *{
   font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px;
 }
 .btn:focus, .btn.focus, .btn:active, .form-control:focus {
   box-shadow: none;
 }
 
-/* CSS Styles for index.php */
+/* CSS Styles for header.php */
 
 #hello {
   width: 32px;
@@ -30,6 +31,9 @@
 .main-header{
   background-color: #f2f2f2;
 }
+
+/* CSS Styles for index.php */
+
 .main-page-img {
   width: 200px !important;
 }
@@ -44,6 +48,10 @@
 .main-page-text {
   line-height: 1.8em;
 }
+
+/* CSS Styles for footer.php */
+
+
 footer {
   background-color: rgb(11, 56, 46); 
   height: 440px;
@@ -99,6 +107,8 @@ footer {
   padding: 30px;
 }
 
+/* CSS Styles for register.php */
+
 .register-form {
   height: 800px;
   display: flex;
@@ -111,4 +121,67 @@ footer {
   border-radius: 5px;
   width: 50%;
   padding: 30px;
+}
+
+/* CSS Styles for voter.php */
+
+.voter-profile {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.profile-card {
+  box-shadow: 6px 4px 20px 2px #f2f2f2;
+}
+.status {
+  text-align: center;
+  background-color: #51A85D;
+  color: #fff;
+  font-weight: 800;
+  border-top: 1px solid #fff;
+}
+.nav-dropdown {
+  background-color: #218F76;
+}
+.nav-dropdown a {
+  color: #fff;
+}
+.vote{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-check{
+  height: 40px;
+  border: 1px solid green;
+  margin-bottom: 10px;
+  width: 320px;
+  padding: 10px 40px;
+  border-radius: 4px;
+}
+
+.changePassword{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.changePassword form{
+  border-radius: 5px;
+  width: 33%;
+  padding: 30px;
+  border: 1px solid #218F76;
+}
+
+.deleteAccount{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.deleteAccount form{
+  border-radius: 5px;
+  width: 33%;
+  padding: 30px;
+  border: 1px solid red;
 }
