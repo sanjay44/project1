@@ -24,11 +24,24 @@
     $votesCount = $votes[0] + 1;
     $res5 = mysqli_query($con, "UPDATE participated SET votes='$votesCount' WHERE electionID='$electionID' AND canID='$votedCan'");
 
+    // ************** CHANGED CODE ******************
+    
     if($res5) {
       $electionID = $_GET['id'];
+      $res8 = mysqli_query($con, "SELECT * FROM status WHERE sElectionID='$electionID' AND sVoterNo='$voterNo'");
+      if($res8) {
+        $p = mysqli_num_rows($res8);
+        if($p == 0) {
+          mysqli_query($con, "INSERT INTO status(sElectionID, sVoterNo, status) VALUES('$electionID', '$voterNo', 0) ");
+        }
+      }
       $res7 = mysqli_query($con, "UPDATE status SET status=1 WHERE sElectionID='$electionID' AND sVoterNo='$voterNo'");
     }
+      
+    // **********************************************
   }
+
+  
 
 
 ?>
